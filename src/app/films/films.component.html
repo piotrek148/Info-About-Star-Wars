@@ -1,0 +1,21 @@
+<h1>about STAR WARS</h1>
+<div class="container">
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Director</th>
+      <th>Release date</th>
+      <th>Episode number</th>
+      <th>See all</th>
+    </tr>
+    <tr *ngFor="let film of films">
+      <td>{{ film.title }}</td>
+      <td>{{ film.director }}</td>
+      <td>{{ film.release_date }}</td>
+      <td>{{ film.episode_id }}</td>
+      <td>
+      </td>
+    </tr>
+
+  </table>
+</div>
